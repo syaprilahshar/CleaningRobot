@@ -69,8 +69,6 @@ namespace CleaningRobot
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"Unhandled Exception executing program: {ex.Message}");
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine($"Hint: Review your .json file");
             }
             finally
             {
